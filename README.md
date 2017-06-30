@@ -28,3 +28,12 @@ server
  
  # run
  java -jar coderServer.jar
+
+
+# Thanks to the following organizations for their contributions to open source
+ffmpeg：https://ffmpeg.org/
+red5：https://www.red5.co.uk/
+nginx：http://nginx.org
+php：http://www.php.net
+mysql:https://www.mysql.com/
+
