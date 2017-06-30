@@ -5,8 +5,7 @@
 Based on rights management , Video files for streaming media, compression ratio, high definition, Streaming media play is not cardton
 
 # Configuration
-CentOS 6.X
-Nginx + red5-1.0.0 + ffmpeg + JDK1.6+
+CentOS 6.X + Nginx + red5-1.0.0 + ffmpeg + JDK1.6+ +.net(Client) + php5(web)
 
 Nginx listen port 1395
 
