@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<!-- 系统配置文件 -->
+	<comment>System Setting׃</comment>
+	<!-- 系统端口号 -->
+	<entry key="ServerPort"><![CDATA[8889]]></entry>
+	<!-- 系统密钥 -->
+	<entry key="ServerKey"><![CDATA[ihlih*3307JOHT*)]]></entry>
+	<!-- 通信密钥 -->
+	<entry key="TcpKey"><![CDATA[187B6114754E151BC0C409AA37671DEA]]></entry>
+	<!-- 系统同时转码线程数量 这里取决于服务器的转码能力 -->
+	<entry key="encoder_pool_max"><![CDATA[2]]></entry>
+	
+	<!-- 视频最大尺寸 -->
+	<entry key="video_size_max"><![CDATA[720*576]]></entry>
+	<!-- 视频标准尺寸 -->
+	<entry key="video_size_normal"><![CDATA[570*456]]></entry>
+	<!-- 视频最小尺寸 -->
+	<entry key="video_size_min"><![CDATA[380*304]]></entry>
+	
+	<!-- 视频音频大码率 -->
+	<entry key="video_audio_max"><![CDATA[64]]></entry>
+	<!-- 视频音频标准码率 -->
+	<entry key="video_audio_normal"><![CDATA[48]]></entry>
+	<!-- 视频音频小码率 -->
+	<entry key="video_audio_min"><![CDATA[48]]></entry>
+	
+	<!-- 视频大码率 -->
+	<entry key="video_rate_max"><![CDATA[650]]></entry>
+	<!-- 视频标准码率 -->
+	<entry key="video_rate_normal"><![CDATA[450]]></entry>
+	<!-- 视频小码率 -->
+	<entry key="video_rate_min"><![CDATA[350]]></entry>
+	
+	<!-- 视频帧率 -->
+	<entry key="video_fps"><![CDATA[25]]></entry>
+	
+	<!-- 视频比例 -->
+	<entry key="video_spect"><![CDATA[4:3]]></entry>
+	
+	<!-- 数据库地址 -->
+	<entry key="dataAddress"><![CDATA[localhost]]></entry>
+	<!-- 数据库端口 -->
+	<entry key="dataPort"><![CDATA[3306]]></entry>
+	<!-- 数据库名 -->
+	<entry key="dataName"><![CDATA[coderServer]]></entry>
+	<!-- 数据库账号 -->
+	<entry key="dataId"><![CDATA[coderServer]]></entry>
+	<!-- 数据库密码 -->
+	<entry key="dataPaw"><![CDATA[3LvFnSA4NF4WuXFZ]]></entry>
+	
+	
+	<!-- 视频数据库地址 -->
+	<entry key="dataAddress1"><![CDATA[192.168.1.22]]></entry>
+	<!-- 数据库端口 -->
+	<entry key="dataPort1"><![CDATA[3306]]></entry>
+	<!-- 数据库名 -->
+	<entry key="dataName1"><![CDATA[coderServer]]></entry>
+	<!-- 数据库账号 -->
+	<entry key="dataId1"><![CDATA[coderServer]]></entry>
+	<!-- 数据库密码 -->
+	<entry key="dataPaw1"><![CDATA[LMqdpKaRFX7vYHBQ]]></entry>
+	
+	
+	<!-- 网站API地址 -->
+	<entry key="WEB_PATH"><![CDATA[http://www.xxx.com/appqy_api/api.php]]></entry>
+	<!-- 网站API KEY -->
+	<entry key="WEB_KEY"><![CDATA[AaPpQqYyCcOoMmLl]]></entry>
+	
+	<!-- 转码服务器FTP目录(服务端取客户端上传上来的视频目录) -->
+	<entry key="coder_ftp_path"><![CDATA[/encode/videoftp/]]></entry>
+	<!-- 本地服务器存放已完成转码视频目录 -->
+	<entry key="Encoder_path"><![CDATA[/encode/encoder/]]></entry>
+	
+	<!-- video FTP IP 分发FTP-->
+	<entry key="video_ftp_ip"><![CDATA[192.168.1.24]]></entry>
+	<!-- video FTP port -->
+	<entry key="video_ftp_port"><![CDATA[9874]]></entry>
+	<!-- video FTP id -->
+	<entry key="video_ftp_id"><![CDATA[videoserver]]></entry>
+	<!-- video FTP pwd -->
+	<entry key="video_ftp_pwd"><![CDATA[videoservernpcxxx]]></entry>
+</properties>
