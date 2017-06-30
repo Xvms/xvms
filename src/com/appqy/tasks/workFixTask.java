@@ -58,7 +58,7 @@ public class workFixTask implements Runnable {// 任务接口
 			//手机版储存地址
 			this.rPathMini = rPath + "m/";
 			//这里需要加配远程视频服务器LIST列表 包括域名等
-			this.RserverUrl = "rtmp://caches1v.scnj.tv/njtvlive|";
+			this.RserverUrl = "rtmp://caches1v.xxx.com/live|";
 			//视频转码命令
 			this.cmd = config.video_properties(config.get_setting("coder_ftp_path")+video,Encoder_path,video);
 		}
