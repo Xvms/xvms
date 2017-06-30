@@ -74,7 +74,7 @@ public class getConfig {
 		//设置视频大小帧中的宽高为双数,单数转码器会报错
 		video_size_normal = double_wh(video_size_normal);
 		
-		//TODO 还需设置三种格式参数  和  多线程的转码,非JAVA多线程,是ffmpeg内置的多线程命令
+		//TODO 还需设置三种格式参数  和  多线程的转码,非JAVA多线程,是ffmpeg内置的多线程命令  以下命令是视频生成后流媒体不卡的关键
 		// ffmpeg  -i /encode/video/20140605/20140605b.mp4  -acodec libfaac -y -b 400k -vcodec libx264  -ab 48k -ar 44100 -s 570x456 -threads 4 -subq  6 -refs 6 -bf 0  -trellis 0 -8x8dct 0  -keyint_min 7 -qdiff 4  -maxrate 450k -minrate 380k  test.mp4
 		cmd[0] = "ffmpeg -threads 16 -i "+input_file+" -acodec libfaac -y -b "+video_rate_normal+"k  -vcodec libx264  -ab "+video_audio_normal+"k -ar 44100 -maxrate "+maxrate+"k -minrate "+minrate+"k -s "+video_size_normal+" -subq  6 -refs 6 -bf 0  -trellis 0 -8x8dct 0  -keyint_min 7 -qdiff 4 "+output_path+output_file;
 		cmd[1] = "ffmpeg -threads 16 -i "+input_file+" -acodec libfaac -y -b "+video_rate_min+"k  -vcodec libx264  -ab "+video_audio_min+"k -ar 44100 -maxrate "+Mmaxrate+"k -minrate "+Mminrate+"k -s "+video_size_min+" -subq  6 -refs 6 -bf 0  -trellis 0 -8x8dct 0  -keyint_min 7 -qdiff 4 "+output_path+"m_"+output_file;
