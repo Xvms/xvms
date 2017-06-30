@@ -2,7 +2,7 @@
  A Java from the server as a Linux transcoding open source software, from upload to transcoding to storage distribution, and finally released (PC / Mobile) to the CMS system
 
 # Point
-Based on rights management , Video files for streaming media, compression ratio, high definition, Streaming media play is not cardton
+Based on rights management , Video files for streaming media, compression ratio, high definition, Streaming media play is not cardton , API docking CMS
 
 # Configuration
 CentOS 6.X + Nginx + red5-1.0.0 + ffmpeg + JDK1.6+ +.net(Client) + php5(web)
