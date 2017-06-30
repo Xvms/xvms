@@ -24,7 +24,7 @@ public class main_process{
 				//读取日志系统配置
 				PropertyConfigurator.configure("log4j.properties");
 //				FtpClient FTPc = new FtpClient();
-//				boolean send = FTPc.UpLoadFromDisk("www.scnj.tv", 9874, "videoserver", "videoservernpcxxx", "C:\\Users\\fy\\Desktop\\2014-04-28-17-26-03-499.mp4", "/02/", "test.mp4");
+//				boolean send = FTPc.UpLoadFromDisk("www.xxx.com", 9874, "videoserver", "videoservernpcxxx", "C:\\Users\\fy\\Desktop\\2014-04-28-17-26-03-499.mp4", "/02/", "test.mp4");
 //				if(send)
 //					System.out.println("ftp ok");
 				//启动程序socket主服务
