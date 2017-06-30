@@ -14,7 +14,7 @@ Nginx listen port 1395
 server 
 	{
     	listen          8181;
-    	server_name caches1v.scnjtv.com;
+    	server_name xxxx.com;
         limit_rate_after 3m;
         limit_rate 160k;
 
