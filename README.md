@@ -41,3 +41,12 @@ php：http://www.php.net
 
 mysql:https://www.mysql.com/
 
+# Copyright
+
+Xvms follow the GUN open source protocol release and provide free use.
+
+The third party source code and the copyright information of the binary file included in this project are marked separately.
+
+Copyright © 2017-2018 by appqy @ fy (http://www.appqy.com)
+
+All rights reserved.
