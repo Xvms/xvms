@@ -33,13 +33,19 @@ server
 # Thanks to the following organizations for their contributions to open source
 ffmpeg：https://ffmpeg.org/
 
+mina2： http://mina.apache.org/
+
 red5：https://www.red5.co.uk/
 
 nginx：http://nginx.org
 
 php：http://www.php.net
 
-mysql:https://www.mysql.com/
+mysql: https://www.mysql.com/
+
+log4j: http://logging.apache.org/log4j/
+
+HttpComponents: http://hc.apache.org/downloads.cgi
 
 # Copyright
 
